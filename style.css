@@ -1,0 +1,122 @@
+
+/* Introduction Box */
+.infomation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    background: #111827;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Image */
+.infomation img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #06B6D4;
+}
+
+/* Text */
+.infomation p {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .infomation {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    background: #111827;
+    border-radius: 12px;
+}
+
+/* Header Links */
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+header a:hover {
+    color: #06B6D4;
+    text-shadow: 0 0 10px #06B6D4;
+}
+
+/* HTML and CSS Task Buttons */
+.html,
+.css {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Heading Full Width */
+.html h1,
+.css h1 {
+    width: 100%;
+    text-align: center;
+}
+
+/* 3 Buttons in One Row */
+.html button,
+.css button {
+    width: calc(33.33% - 15px);
+    padding: 12px;
+    background: #0891B2;
+    border: 2px solid #06B6D4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #06B6D455;
+    transition: 0.3s;
+}
+
+.html button a,
+.css button a {
+    color: #0B1120;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.html button:hover,
+.css button:hover {
+    background: #06B6D4;
+    box-shadow: 0 0 15px #06B6D4,
+                0 0 30px #06B6D4;
+    transform: translateY(-3px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .html button,
+    .css button {
+        width: 100%;
+    }
+}
+.GitHub {
+    text-align: center;
+}
+
+.GitHub button {
+    padding: 12px 35px;
+    background: #10B981;
+    border: none;
+    border-radius: 10px;
+}

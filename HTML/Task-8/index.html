@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="icon" href="./Assate/image/image_1-removebg-preview.png">
+</head>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;      
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+  }
+
+  .box {
+    border: 5px solid red;
+    padding: 20px;
+    width: 200px;
+  }
+</style>    
+<body style="text-align: center;">
+    <main class="Multiple-Form">
+        <form action="#" method="post">
+            <fieldset style="width: 250px; height: 400px; background-color: transparent; border-color: black;">
+                <h1>Login</h1>
+                <p style="color: gray"><b>Please fill in the following <br>&nbsp;&nbsp;&nbsp; information carefully!</p>
+                <!--<label for="First name">Name</label>-->
+                <input type="text" id="First name" placeholder="Enter your name" required>
+                <br><br>
+                <!--<label for="email">Email</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <br><br>
+                <!--<label for="pass">Password</label> &nbsp;&nbsp;-->
+                <input type="password" id="pass" placeholder="Create  the password" required>
+                <br><br>
+                <!--<label for="dob">Date Of Birth</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <input type="date" id="dob" name="dob">
+                <br><br>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender">
+                <br><br>
+                <button>Login</button>
+                <br>
+                <p>Go to the <a href="./form2.html">Sign up</a></p>
+                </fieldset>
+        </form>
+    </main>
+</body>
+</html>
