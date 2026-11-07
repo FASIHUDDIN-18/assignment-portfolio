@@ -1,49 +1,72 @@
-
+.body{
+    background-color: #333;
+}
+.head{
+    color: darkslateblue;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    transition: 0.3s;
+    min-width:200px;
+    max-width: 200px;
+    text-align: center;
+}
+.Summary{
+    color: brown;
+    .heading{
+        color: darkviolet;
+    }
+}
 h1{
-    background-color: cadetblue;
+    text-align: center;
+    background-color: aqua;
     color: green;
     padding: 0.1px;
     border-radius: 10px;
-    box-shadow: 0 0 20px darkcyan;
+    box-shadow: 0 0 50px white;
     transition: 0.3s;
-    min-width:400px;
-    max-width: 400px;
+    min-width:300px;
+    max-width: 300px;
 }
 
-
-
-/* 1. Margin Box*/
 .margin-box {
-    background-color: #f9cc9d;
-    padding: 20px;
-    border: 2px dashed #e67e22;
-    border-radius: 8px;
-    text-align: center;
-    width: 400px;
-}
+            background-color: #ffcccc;
+            padding: 20px;
+            border: 2px dashed #ff0000;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            width: 400px;
+            margin: 50px auto;
+        }
 
-/* 2. Border Box*/
-.border-box {
-    background-color: #fef5d1;
-    padding: 20px;
-    border: 5px solid #f1c40f;
-    border-radius: 6px;
-}
+        /* Border Box */
+        .border-box {
+            background-color: #ffe6cc;
+            padding: 20px;
+            border: 5px solid #ff8000;
+        }
 
-/* 3. Padding Box*/
-.padding-box {
-    background-color: #c3e6cb;
-    padding: 20px;
-    border: 2px dashed #2ecc71;
-    border-radius: 4px;
-}
+        /* Padding Box */
+        .padding-box {
+            background-color: #e6ffcc;
+            padding: 25px;
+            border: 2px dashed #00cc00;
+        }
 
-/* 4. Content Box*/
-.content-box {
-    background-color: #bae1ff;
-    padding: 30px 10px;
-    border: 2px solid #3498db;
-    color: #2c3e50;
-    font-weight: bold;
-}
+        /* Content Box*/
+        .content-box {
+            background-color: #ccf2ff;
+            padding: 15px;
+            border: 2px solid #0040ff;
+            font-weight: bold;
+        }
 
+        span {
+            display: block;
+            font-size: 12px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .sum{
+            background-color: black;
+        }
