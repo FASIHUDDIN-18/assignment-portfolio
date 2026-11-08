@@ -1,0 +1,547 @@
+.background{
+    text-align: center;
+    background-image: url(./Asste/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.header{
+    .img{
+        max-width: 100px;
+        min-width: 100px;
+        min-height: 50px;
+        max-height: 50px;
+    }
+    word-spacing: 200px;
+    font-size: 30px;
+    display: inline;
+}
+.sarech{
+    .sea{
+        min-width: 700px;
+        max-width: 700px;
+        min-height: 50px;
+        max-height: 50px;
+        font-size: 30px;
+    }
+    h1{
+        font-style: italic;
+        font-size: 100px;
+        color: white;
+    }
+    p{
+        font-size: 40px;
+        color: white;
+    }
+}
+.back{
+    background-color: #0B1120;
+}
+h2{
+
+    text-align: center;
+    font-size: 50px;
+    width: 300px;
+    height: 70px;
+    box-shadow: 0 0 50px white;
+    border-radius: 50px;
+            padding: 7px;
+    background-color: #0B1120;
+        color: #0891B2;
+}
+.bg{
+    background-color: #0B1120;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    height: 3000px;
+    margin: 0;
+}
+
+    .car{
+        box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 1.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px;
+        p{
+            text-align: center;
+            font-size: 20px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: white;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+        .Ferrari{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 2.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 20px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+        .Mercedes{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 3.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Ford{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 4.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Lamborghini{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 5.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Audi{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 6.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Range{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 7.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Toyota{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 8.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Rolls{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 9.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Chevrolet{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 10.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Porsche{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 11.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Tesla{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 12.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Dodge{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 13.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Jeep{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 14.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .Bugatti{
+            box-shadow: 0 0 30px #0891B2;
+        background-color: #0B1120; 
+        border-radius: 15px;
+        padding: 220px 0.8px;
+        background-image: url(./Asste/image/CAR\ 15.png);
+        background-repeat: no-repeat;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 10px;
+        max-height: 10px;
+        background-size: 310px 290px;
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: #0891B2;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 100px white;
+            border-color: #0B1120;
+            background-color: #0B1120;
+            color: #0891B2;
+            border-radius: 15px;
+            padding: 7px;
+        }
+    }
+    .about{
+        .inof{
+            font-size: 50px;
+        }
+        text-align: center;
+        word-spacing: 5px;
+        background-color: ;
+            color: #0891B2;
+            h3{
+                color: white;
+            }
+            .b{
+                color: white;
+            }
+    }
+    .footer{
+         background: #0B1120;
+    color: white;
+    padding: 50px 30px;
+    h4{
+        font-size: 30px;
+    }    
+    p{
+            color: gray;
+            font-size: 20px;
+        }
+        .list{
+            color: gray;
+            font-size: 20px;
+        }
+        .center{
+            text-align: center;
+        }
+    }
+    .Login{
+        text-align: center;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background: #0B1120;
+        min-width: 1500px;
+        max-width: 1500px;
+        min-height: 800px;
+        max-height: 800px;
+        .Form{
+        border-radius: 15px;
+        h1{
+            color: #0891B2;
+        }
+        .gender{
+            color: #0891B2;
+        }
+        background: #0B1120;
+        box-shadow: 0 0 100px white;
+    }
+    button{
+        font-size: 30px;
+        border-radius: 15px;
+        background-color: #0891B2;
+        border-color: transparent;
+        box-shadow: 0 0 50px white;
+    }
+    }

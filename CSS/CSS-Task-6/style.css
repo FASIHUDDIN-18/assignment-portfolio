@@ -1,0 +1,376 @@
+.introduction{
+    text-align: center;
+    display: inline;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+    h1{
+        display: inline;
+        background-color: #02173c;
+        color: yellow;
+        border-radius: 8px;
+        width: 500px;
+        height: 50px;
+    }
+    .css{
+         display: inline;
+         color: white;
+    }
+    p{
+        color: #02173c;
+    }
+}
+
+ /*element 1 Descendant Combinator*/
+
+ .Descendant{
+    .h2{
+        width: 390px;
+        color: white;
+        background-color: darkblue;
+    }
+    border-radius: 15px;
+    width: 390px;
+    height: 450px;
+    border: 2px solid blue;
+    .Select{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        width: 300px;
+        height: 100px;
+        background-color: lightblue;
+    }
+    .exp{
+        .tag{
+        font-size: 16px;
+        color: gray;
+        }
+        border-radius: 8px;
+        width: 300px;
+        background-color: skyblue;
+    }
+    .all{
+        font-size: 20px;
+        color: gray;
+    }
+    .ele{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        text-align: center;
+        width: 150px;
+        border: 2px dashed skyblue;
+        border-radius: 10px;
+        .div{
+             padding:0.8px;
+            border-radius: 3px;
+            height: 70px;
+            width: 130px;
+            background-color: lightpink;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+            .p{
+                background-color: palevioletred;
+                width: 100px;
+                border-radius: 3px;
+            }
+            .text{
+                background-color: palevioletred;
+                width: 100px;
+                border-radius: 3px;
+            }
+        }
+    }
+}
+
+ /*element 2 child Combinator*/
+
+.child{
+    h3{
+        font-size: 30px;
+        width: 390px;
+        color: white;
+        background-color: green;
+    }
+    border-radius: 15px;
+    width: 390px;
+    height: 580px;
+    border: 2px solid green;
+    .com{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(199, 243, 199);
+    }
+    .tag{
+        .tag{
+        font-size: 16px;
+        color: gray;
+        }
+        border-radius: 8px;
+        width: 300px;
+        background-color: skyblue;
+    }
+    .all{
+        font-size: 20px;
+        color: gray;
+    }
+    .not{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border: 2px dashed skyblue;
+        border-radius: 10px;
+        .div{
+             padding:0.8px;
+            border-radius: 3px;
+            height: 170px;
+            width: 170px;
+            background-color: lightpink;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+            .p{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+                background-color: palevioletred;
+                width: 160px;
+                border-radius: 3px;
+            .butt{
+                text-align: center;
+                background-color: palevioletred;
+                width: 100px;
+                border-radius: 3px;
+            }
+            }
+            .text{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+                background-color: skyblue;
+                width: 150px;
+                border-radius: 3px;
+                .nested{
+                    background-color: skyblue;
+                    border: 2px dashed blue;
+                width: 120px;
+                border-radius: 3px;
+                .nav{
+                    display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+                    background-color: skyblue;
+                width: 100px;
+                border: 2px solid blue;
+                border-radius: 3px;
+                }
+                }
+            }
+        }
+    }
+}
+
+ /*element 3 Adjacent Sibling Combinator*/
+
+.Adjacent{
+    h4{
+        font-size: 25px;
+        width: 390px;
+        color: white;
+        background-color: rgb(86, 2, 86);
+    }
+    border-radius: 15px;
+    width: 390px;
+    height: 580px;
+    border: 2px solid rgb(86, 2, 86);
+    .combinator{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(145, 79, 145);
+    }
+    .element{
+        p{
+        font-size: 16px;
+        color: gray;
+        }
+        border-radius: 8px;
+        width: 300px;
+        background-color: skyblue;
+    }
+    .all{
+        font-size: 20px;
+        color: gray;
+    }
+    .tittle{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        text-align: center;
+        width: 200px;
+        border: 2px dashed skyblue;
+        border-radius: 10px;
+    .para{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        width: 100px;
+        background-color: skyblue;
+        border-radius: 5px; 
+    }
+    .parent{
+        text-align: center;
+        width: 180px;
+        background-color: lightpink;
+        border: 2px solid orangered;
+        border-radius: 10px;
+    }
+    }
+    .second{
+        text-align: center;
+        width: 180px;
+        background-color: skyblue;
+        border-radius: 4px;
+    }
+}
+ /*element 4 General Sibling Combinator*/
+
+.General{
+    h5{
+        font-size: 25px;
+        width: 390px;
+        color: white;
+        background-color: orangered;
+    }
+    border-radius: 15px;
+    width: 390px;
+    height: 630px;
+    border: 2px solid orange;
+    .back{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        font-size: 20px;
+        text-align: center;
+        border-radius: 15px;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(250, 198, 102);
+    }
+    .orange{
+        .fasih{
+        font-size: 16px;
+        color: gray;
+        }
+        border-radius: 8px;
+        width: 300px;
+        background-color: skyblue;
+    }
+    .all{
+        font-size: 20px;
+        color: gray;
+    }
+    .laptop{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        text-align: center;
+        width: 200px;
+        border: 2px dashed skyblue;
+        border-radius: 10px;
+    .footer{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: auto;
+        width: 100px;
+        background-color: skyblue;
+        border-radius: 5px; 
+    }
+    .par{
+        text-align: center;
+        width: 180px;
+        background-color: lightpink;
+        border: 2px solid orangered;
+        border-radius: 10px;
+    }
+    }
+    .match{
+        text-align: center;
+        width: 180px;
+        background-color: skyblue;
+        border-radius: 4px;
+        .red{
+            text-align: center;
+        width: 180px;
+        background-color: orange;
+        border: 2px dashed orangered;
+        border-radius: 4px;
+        }
+    .blue{
+        text-align: center;
+        width: 180px;
+        background-color: orange;
+        border: 2px dashed orangered;
+        border-radius: 4px;
+    }
+    }
+    .last{
+        text-align: center;
+        width: 180px;
+        background-color: skyblue;
+        border-radius: 4px;
+    }
+}       

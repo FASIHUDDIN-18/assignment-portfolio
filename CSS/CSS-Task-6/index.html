@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSakIVOPDakL4fcHOT7mO_4kcb_A4FtqaaYQX6XYnIVQ&s=10">
+</head>
+<body>
+    <div class="introduction">
+        <h1><p class="css">CSS</p> Combinators – All 4 Types</h1>
+        <p><b>Select elements based on their relationship</b></p>
+    </div>
+    <!--element 1 Descendant Combinator-->
+    <div class="Descendant">
+            <h2 class="h2">Descendant Combinator (Space)</h2>
+        <div class="Select"><br><br><br><br>
+            <p>Selects all matching elements inside a parent element.</p>
+            <div class="exp">
+                <p class="tag"><b>Exp:</b>For Tag</p>
+                div p { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red; <br>
+                } <br>
+            </div>
+            </div><br><br><br><br><br>
+            <p style="text-align: center;" class="all"><b>Exp:</b>Select all element!</p> 
+            <div class="ele">
+                    <div>&lt;div&gt;</div>
+                    <div class="div">
+                    <div class="p">
+                        &lt;p&gt; Text &lt;/p&gt;
+                    </div><br>
+                    <div class="text">
+                        &lt;p&gt; Text &lt;/p&gt;
+                    </div>
+                    </div>
+            <div>&lt;/div&gt;</div>
+            </div><br><br><br><br><br>
+            <!--element 2 child combinator-->
+    <div class="child">
+        <h3>child Combinator (>)</h3>
+        <div class="com"><br><br><br><br>
+            <p>Selects only the direct chlidren of a parent element.</p>
+            <div class="tag">
+                <p class="tag"><b>Exp:</b>For Tag</p>
+                div p { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red; <br>
+                } <br>
+            </div>
+            </div><br><br><br><br><br>
+            <p style="text-align: center;" class="all"><b>Exp:</b> Element</p> 
+            <div class="not">
+                    <div>&lt;div&gt;</div>
+                    <div class="div">
+                    <div class="p">
+                        <div class="butt">
+                            Selected
+                        </div>
+                        &lt;p&gt; Direct Chlid &lt;/p&gt;
+                    </div><br>
+                    <div class="text">
+                        Not Selected
+                        <div class="nested">
+                            <div>&lt;div&gt;</div>
+                            <div class="nav">
+                                &lt;p&gt; Text &lt;/p&gt;
+                    </div>
+                            <div>&lt;/div&gt;</div>
+                            </div>
+                        </div>
+                    </div>
+            <div>&lt;/div&gt;</div>
+            </div><br><br><br><br><br>
+            <!--element 3 Adjacent Sibling combinator-->
+            <div class="Adjacent">
+        <h4>Adjacent Sibling Combinator (+)</h3>
+        <div class="combinator"><br><br><br><br>
+            <p>Selects the first matching element immediately after another element.</p>
+            <div class="element">
+                <p><b>Exp:</b>For Tag</p>
+                div p { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red; <br>
+                } 
+            </div>
+            </div><br><br><br><br><br>
+            <p style="text-align: center;" class="all"><b>Exp:</b> Element</p> 
+            <div class="tittle">
+                    <div>&lt;div&gt;</div>
+                    <div class="main">
+                    <div class="para">
+                        &lt;p&gt; Text &lt;/p&gt;
+                    </div><br>
+                    <div class="parent">
+                        <p>Selected</p>
+                        &lt;p&gt; First Paragraph&lt;/p&gt;
+                    </div><br>
+                    <div class="second">
+                        &lt;p&gt; Second Paragraph&lt;/p&gt;
+                    </div>
+                    </div>
+            <div>&lt;/div&gt;</div>
+            </div><br><br><br><br><br><br><br><br><br>
+            <!--element 4 General Sibling combinator-->
+            <div class="General">
+        <h5>General Sibling Combinator (~)</h3>
+        <div class="back"><br><br><br><br>
+            <p>Selects all sibling element that come after another element.</p>
+            <div class="orange">
+                <p class="fasih"><b>Exp:</b>For Tag</p>
+                div p { <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red; <br>
+                } <br>
+            </div>
+            </div><br><br><br><br><br>
+            <p style="text-align: center;" class="all"><b>Exp:</b> Element</p> 
+            <div class="laptop">
+                    <div>&lt;div&gt;</div>
+                    <div class="par">
+                        &lt;p&gt; Text &lt;/p&gt;
+                    </div><br>
+                    <div class="match">
+                        <p>Selected</p>
+                        <div class="red">
+                        &lt;p&gt; Para 1&lt;/p&gt;    
+                        </div><br>
+                        <div class="blue">
+                            &lt;p&gt; Para 2 &lt;/p&gt;
+                        </div>
+                    </div><br>
+                    <div class="last">
+                        &lt;p&gt; Para 3 &lt;/p&gt;
+                    </div><br>
+            <div>&lt;/div&gt;</div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
