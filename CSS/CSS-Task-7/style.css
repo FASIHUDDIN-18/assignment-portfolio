@@ -12,6 +12,7 @@ body{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
     p{
         font-size: 25px;
     }
@@ -41,6 +42,7 @@ body{
         position: relative;
         left: 70px;
         top: 20px;
+        z-index: 1;
     }
     .box{
         background-color: orange;
@@ -49,7 +51,7 @@ body{
         height: 100px;
         text-align: center;
         position: relative;
-        top: 30px;
+        top: 1px;
         left: 1000px; 
     }
     .absolute{
