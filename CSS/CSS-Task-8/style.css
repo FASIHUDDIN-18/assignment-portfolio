@@ -1,0 +1,84 @@
+.flex{
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    word-spacing: 10px;
+    color: burlywood;
+}
+.main{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .laft, .right{
+        align-items: center;
+        position: relative;
+        top: 100px;
+    }
+    .get{
+        background-color: brown;
+        color: burlywood;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+    }
+    .right{
+        background-color: brown;
+        color: burlywood;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 50px;
+    }
+}
+.center{
+    background-color: brown;
+    position: absolute;
+    top: 500px;
+    right: 0;
+    left: 0;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .tool, .design, .fast{
+        text-align: center;
+        p{
+            color: burlywood;
+        }
+        h2{
+            color: cornsilk;
+        }
+    }
+}
+.users{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    h3{
+        font-size: 35px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p{
+        font-style: italic;
+    }
+}
+.footer{
+    background-color: brown;
+    color: burlywood;
+    position: absolute;
+    top: 1000px;
+    right: 0;
+    left: 0;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
